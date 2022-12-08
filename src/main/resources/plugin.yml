@@ -1,0 +1,11 @@
+name: Survivalgames
+version: '${project.version}'
+main: de.lbc.survivalgames.Main
+api-version: 1.19
+authors: [ LBC__ ]
+commands:
+  survivalgames:
+    description: Admincommand, um SG einzustellen.
+    permission: sg.manage
+    aliases: [sg]
+  sgstats:
